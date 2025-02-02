@@ -19,3 +19,4 @@ export default function Home() {
 		</div>
 	);
 }
+// TODO: 52:36 https://www.youtube.com/watch?v=fGkRQgf6Scw
