@@ -61,7 +61,7 @@ async function NavigationHeader() {
                         </SignedOut>
 
                         {/* profile button */}
-                        <HeaderProfileBtn />
+                        {/* <HeaderProfileBtn /> */}
                     </div>
                 </div>
             </div>
