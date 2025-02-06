@@ -33,8 +33,7 @@ function OutputPanel() {
                 {hasContent && (
                     <button
                         onClick={handleCopy}
-                        className="flex items-center gap-1.5 px-2.5 py-1.5 text-xs text-gray-400 hover:text-gray-300 bg-[#1e1e2e] 
-            rounded-lg ring-1 ring-gray-800/50 hover:ring-gray-700/50 transition-all"
+                        className="flex items-center gap-1.5 px-2.5 py-1.5 text-xs text-gray-400 hover:text-gray-300 bg-[#1e1e2e] rounded-lg ring-1 ring-gray-800/50 hover:ring-gray-700/50 transition-all"
                     >
                         {isCopied ? (
                             <>
@@ -53,10 +52,7 @@ function OutputPanel() {
 
             {/* Output Area */}
             <div className="relative">
-                <div
-                    className="relative bg-[#1e1e2e]/50 backdrop-blur-sm border border-[#313244] 
-        rounded-xl p-4 h-[600px] overflow-auto font-mono text-sm"
-                >
+                <div className="relative bg-[#1e1e2e]/50 backdrop-blur-sm border border-[#313244] rounded-xl p-4 h-[600px] overflow-auto font-mono text-sm">
                     {isRunning ? (
                         <RunningCodeSkeleton />
                     ) : error ? (
