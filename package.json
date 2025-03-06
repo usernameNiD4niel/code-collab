@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@clerk/nextjs": "^6.10.6",
+    "@clerk/types": "^4.47.0",
     "@monaco-editor/react": "^4.6.0",
     "convex": "^1.18.2",
     "framer-motion": "^12.0.6",
@@ -19,6 +20,7 @@
     "react": "19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106",
     "react-hot-toast": "^2.5.1",
+    "react-syntax-highlighter": "^15.6.1",
     "svix": "^1.45.1",
     "zustand": "^5.0.3"
   },
@@ -26,6 +28,7 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/react-syntax-highlighter": "^15.5.13",
     "eslint": "^8",
     "eslint-config-next": "15.0.3",
     "postcss": "^8",
